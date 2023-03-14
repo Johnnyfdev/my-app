@@ -1,8 +1,9 @@
 import "./App.css";
 
 import close from "./assets/images/close.png";
-import Dashboard from "./assets/images/dashboard.svg";
+import { ReactComponent as Dashboard } from "./assets/images/dashboard.svg";
 import { useState } from "react";
+import { ItemDashboard } from "./components/item-dashboard";
 
 function App() {
   const [showMenu, setShowMenu] = useState(false);
@@ -22,9 +23,10 @@ function App() {
     <div className="App">
       <div className="sidebar">
         <div className="item-sidebar">
-      
-          <img className="icon" src={Dashboard} alt="Dashboard" />
-          <span>Dashboard</span>
+          <ItemDashboard />
+          <ItemDashboard />
+          <ItemDashboard />
+          <ItemDashboard />
         </div>
       </div>
 

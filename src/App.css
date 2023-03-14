@@ -181,7 +181,7 @@
 .item-sidebar:hover {
   background-color: #f5f7fb;
   color: var(--custom-primary);
-  fill: var(--custom-primary);
+  stroke: var(--custom-primary);
 }
 
 .item-sidebar.active {
@@ -190,20 +190,10 @@
   fill: var(--custom-primary);
 }
 
-.item-sidebar img {
-  width: 24px;
-  height: 24px;
-  margin-right: 16px;
-  fill: #0180ff;
-  stroke: #0180ff;
-}
-
 .icon {
   width: 24px;
   height: 24px;
   margin-right: 16px;
-  fill: #0180ff;
-  stroke: #0180ff;
 }
 
 .button-filled:hover {
